@@ -21,15 +21,15 @@ app.get('/courses', (req, res) => {
 
 app.get('/courses/:id', (req, res) => {
     const id = req.params.id
-        const categoryCourse = allCourses.filter(course => course._id === id)
+        const categoryCourse = allCourses.filter(course => course._id === id || course.category_id === id)
         res.send(categoryCourse)
 })
 
-app.get('/course/:id', (req, res) => {
-    const id = req.params.id
-    const singleCourse = allCourses.find(course => course._id === id)
-    res.send(singleCourse)
-})
+// app.get('/course/:id', (req, res) => {
+//     const id = req.params.id
+//     const singleCourse = allCourses.find(course => course._id === id)
+//     res.send(singleCourse)
+// })
 
 app.listen(port, () => {
     console.log("Listening at port", port)
