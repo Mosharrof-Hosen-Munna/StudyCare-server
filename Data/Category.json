@@ -1,0 +1,47 @@
+[
+    {
+      "id":"01",
+      "name":"Data Science",
+      "slogan":"Data is Everything"
+    },
+    {
+      "id":"02",
+      "name":"Business",
+      "slogan":"Improve your business"
+    },
+    {
+      "id":"03",
+      "name":"Art & Design",
+      "slogan":"Fun & Challenging"
+    },
+    {
+      "id":"04",
+      "name":"Lifestyle",
+      "slogan":"New Skills, New You"
+    },
+    {
+      "id":"05",
+      "name":"Marketing",
+      "slogan":"Improve your business"
+    },
+    {
+      "id":"06",
+      "name":"Finance",
+      "slogan":"Fun & Challenging"
+    },
+    {
+      "id":"07",
+      "name":"Health & Fitness",
+      "slogan":"Invest to Your Body"
+    },
+    {
+      "id":"08",
+      "name":"Music",
+      "slogan":"Major or Minor"
+    },
+    {
+      "id":"09",
+      "name":"Academics",
+      "slogan":"High Education Level"
+    }
+  ]
